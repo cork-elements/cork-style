@@ -1,0 +1,15 @@
+{
+  "name": "@ucd-lib/cork-style-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ucd-lib/cork-app-build": "0.0.2"
+  }
+}

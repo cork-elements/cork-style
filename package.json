@@ -1,0 +1,13 @@
+{
+  "name": "@ucd-lib/cork-style",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cork-elements/cork-style.git",
+  "author": "Justin Merz <jrmerz@gmail.com>",
+  "license": "MIT",
+  "flat": true,
+  "dependencies": {
+    "@polymer/paper-styles": "^3.0.0-pre.12",
+    "@polymer/polymer": "^3.0.0-pre.12"
+  }
+}

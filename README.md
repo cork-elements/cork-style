@@ -2,20 +2,42 @@
 
 CSS custom variable for cork color palette and font base
 
-## Install the Polymer-CLI
+## install
 
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your element locally.
-
-## Viewing Your Element
-
-```
-$ polymer serve
+```bash
+yarn install @ucd-lib/cork-styles
 ```
 
-## Running Tests
+## Develop
 
-```
-$ polymer test
+First, make sure you have webpack installed.
+
+```bash
+npm install -g webpack webpack-cli
 ```
 
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+Now install both element dependencies and developer dependences (in /demo).
+
+```bash
+yarn install
+cd demo && npm install
+```
+
+Now fireup webpack, this will create a bundle.js file in /demo.  Bundle file
+will automatically rebuild when any required resource changes.
+
+```bash
+cd demo && npm run dev
+```
+
+Finally, serve demo directory.  Recommend http-server.
+
+Install http-server
+```bash
+npm install -g http-server
+```
+
+Serve demo directory
+```bash
+http-server demo
+```
